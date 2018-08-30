@@ -1,0 +1,70 @@
+.image
+{
+  border: 2px solid black;
+  width: 73%;
+  height: 333px;
+  margin-left: 25%;
+  background-size: 100%;;
+  background-repeat: no-repeat;
+
+}
+rating
+{
+  margin-left: 93%;
+  height: 22px;
+  border: 2px solid black
+}
+.title_year
+{
+  margin-left: 79px;
+  border: 2px solid black;
+  padding: 17px;
+  width: 196px;
+  text-align: center;
+}
+.search
+{
+  margin-left: 21%;
+  margin-top: 2%;
+}
+.rating_filter
+{
+  margin-left: 57%;
+  margin-top: -4%;
+}
+.text
+{
+  width: 28%;
+  height: 31px;
+}
+.btn
+{
+  width: 10%;
+  height: 37px;
+}
+.movie
+{
+  margin-top: 5%;
+}
+.rating
+{
+  
+    margin-left: 43%;
+    height: 20px;
+}
+.Movie_list
+{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+.add
+{
+  border: 2px solid #1E90FF;
+  height: 118px;
+  padding: 135px 4.5%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
