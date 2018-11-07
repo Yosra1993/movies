@@ -2,4 +2,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-repeat: no-repeat;
+  background-image: url(https://palacehaverfordwest.co.uk/includes/images/offers-back.jpg);
+  background-size: cover;
+  background-color: rgba(144, 110, 110, 0.3);
 }

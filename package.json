@@ -5,9 +5,11 @@
   "homepage": "https://yosra1993.github.io/movies/",
   "dependencies": {
     "gh-pages": "^1.2.0",
+    "mdbreact": "^4.8.2",
     "react": "^16.4.2",
     "react-dom": "^16.4.2",
-    "react-scripts": "1.1.5"
+    "react-scripts": "1.1.5",
+    "redux": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
