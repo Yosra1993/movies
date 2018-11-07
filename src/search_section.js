@@ -1,12 +1,16 @@
 import React from 'react';
+import {FormInline, Fa  } from 'mdbreact';
 
 const serach=(props)=>
 { 
     return (
-        <div className='search' >
-        <input className='text' type='text' onChange={props.serchtitre}/>
-        <input className='btn' type='button' value='Search'/>
-        </div>    
+        
+        <FormInline className="md-form active-cyan active-cyan-2 search">
+  <Fa icon="search" />
+  <input style={{ width:"90%"}} className="form-control form-control-sm ml-3 w-75" type="text" placeholder="  
+  Search" aria-label="Search"onChange={props.serchtitre}/>
+
+</FormInline> 
     
     
     )

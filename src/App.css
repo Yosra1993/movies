@@ -1,3 +1,12 @@
+.App
+{
+  background-repeat: no-repeat;
+  background-image: url(https://i.ytimg.com/vi/svTVRDgI08Y/maxresdefault.jpg);
+  background-size: cover;
+  background-color: rgba(144, 110, 110, 0.3);
+}
+
+
 .image
 {
   border: 2px solid black;
@@ -7,6 +16,10 @@
   background-size: 100%;;
   background-repeat: no-repeat;
 
+}
+.section-1{
+  display: flex;
+    justify-content: space-around
 }
 rating
 {
@@ -21,16 +34,6 @@ rating
   padding: 17px;
   width: 196px;
   text-align: center;
-}
-.search
-{
-  margin-left: 21%;
-  margin-top: 2%;
-}
-.rating_filter
-{
-  margin-left: 57%;
-  margin-top: -4%;
 }
 .text
 {
@@ -67,4 +70,7 @@ rating
   margin-top: 5%;
   margin-left: 5%;
 }
-
+.search
+{
+ width:30% ;
+}
